@@ -1,0 +1,13 @@
+int main()
+{
+int n,t=0;
+printf("enter value a:");
+scanf("%d",&n);
+
+ for (int i=1;i<=n;i*=2){
+  printf("%d \t",i);
+  t +=i;
+  
+ }
+ return 0;
+}

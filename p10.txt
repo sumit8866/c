@@ -1,0 +1,17 @@
+#include<stdio.h> 
+int main()
+{
+char c;
+int t=0;
+
+for( c='A';c<='Z';c+=2)
+{
+	if(t==0){
+	printf("%c",c);
+}else
+}
+printf("%c",c+32);
+}
+
+ return 0;
+}
